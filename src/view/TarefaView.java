@@ -64,7 +64,7 @@ public class TarefaView {
     public void tarefaFinalizada(){ System.out.print("Tarefa finalizada com sucesso!"); }
 
     //SYSOUT PARA DELETAR TAREFA
-    public void deletaTarefa(){ System.out.println("== DELETA =="); }
+    public void deletaTarefa(){ System.out.println("== DELETAR =="); }
 
     public void deletaTarefaId(){ System.out.print("Insira o id da tarefa que você deseja deletar: "); }
 

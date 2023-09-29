@@ -27,7 +27,7 @@ public class TarefaView {
         System.out.println("2 - Atualiza tarefa");
         System.out.println("3 - finaliza tarefa");
         System.out.println("4 - Lista tarefa");
-        System.out.println("5 - Excloi tarefa");
+        System.out.println("5 - Deleta tarefa");
         System.out.println("0 - Sair");
 
         System.out.print("\nSelecione uma das opcoes: ");
@@ -64,7 +64,7 @@ public class TarefaView {
     public void tarefaFinalizada(){ System.out.print("Tarefa finalizada com sucesso!"); }
 
     //SYSOUT PARA DELETAR TAREFA
-    public void deletaTarefa(){ System.out.println("== EXCLOI =="); }
+    public void deletaTarefa(){ System.out.println("== DELETA =="); }
 
     public void deletaTarefaId(){ System.out.print("Insira o id da tarefa que você deseja deletar: "); }
 
